@@ -5,9 +5,9 @@
 		<!-- provedor/implementacao do JPA -->
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-		<class>model.Pessoa</class>
-		<class>model.Conta</class>
-		<class>model.Endereco</class>
+		<class>model.Funcionario</class>
+		<class>model.Desjejum</class>
+		
 
 		<properties>
 			<property name="javax.persistence.jdbc.url"	value="jdbc:oracle:thin:@localhost:1521:XE" />
